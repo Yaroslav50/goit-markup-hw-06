@@ -1,0 +1,25 @@
+.features {
+  letter-spacing: 0.02em;
+}
+
+.features-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 24px;
+}
+
+.features-card {
+  width: calc((100% - 72px) / 4);
+}
+
+.features-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  background: #f4f4fd;
+  margin-bottom: 8px;
+  height: 112px;
+}
