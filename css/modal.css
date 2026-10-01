@@ -67,16 +67,12 @@
   color: #fff;
 }
 
-.modal-icon-btn {
-}
 .modal-caption {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   width: 100%;
   text-align: center;
-}
-.modal-form {
 }
 
 .modal-form-field {
