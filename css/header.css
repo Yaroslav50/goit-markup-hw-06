@@ -122,6 +122,7 @@
   .address-list {
     flex-direction: row;
     gap: 40px;
+    padding: 0;
   }
 
   .address-link {
