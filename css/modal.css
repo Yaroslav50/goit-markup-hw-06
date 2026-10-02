@@ -26,7 +26,7 @@
   border-radius: 4px;
   padding: 72px 16px 24px;
   max-width: 288px;
-  width: 90%;
+  width: 100%;
   min-height: 619px;
   display: flex;
   flex-direction: column;
@@ -95,6 +95,10 @@
 
 #comment-wrapper {
   margin-bottom: 16px;
+}
+
+.modal-form {
+  width: 100%;
 }
 
 .modal-form-wrapper {
@@ -202,7 +206,6 @@
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  margin-right: 4px;
 }
 
 .modal-form-link {
@@ -214,6 +217,13 @@
 }
 
 @media screen and (min-width: 768px) {
-}
-@media screen and (min-width: 1158px) {
+  .modal-wrapper {
+    padding-inline: 24px;
+    max-width: 408px;
+    min-height: 582px;
+  }
+
+  .modal-form-policy-text {
+    width: auto;
+  }
 }
