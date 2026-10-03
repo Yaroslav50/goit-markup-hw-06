@@ -8,7 +8,7 @@
   display: none;
 }
 
-.nav-list {
+/* .nav-list {
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -51,7 +51,7 @@
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
-}
+} */
 
 /* Tablet styles */
 
